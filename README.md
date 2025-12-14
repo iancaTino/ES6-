@@ -1,34 +1,27 @@
-# 🚀 Exercícios de ES6
+# 📚 Exercício ES6 – Lista de Alunos
 
-Uma coletânea de exercícios feitos para praticar os principais recursos do **JavaScript moderno (ES6+)**, como `let/const`, arrow functions, classes, destructuring, promises, módulos, e mais. 💻🔥
+Este repositório contém **um exercício simples em JavaScript ES6**, feito por mim, com o objetivo de praticar manipulação de arrays e funções modernas da linguagem.
 
----
-
-## 📌 Sobre
-
-Esse repositório é parte dos meus estudos de JavaScript visando **dominar ES6+** — o padrão atual da linguagem usado no mercado e em frameworks modernos. Aqui você vai encontrar exercícios que mostram a prática dos conceitos mais importantes da linguagem. :contentReference[oaicite:1]{index=1}
+Sem enrolação. Só prática.
 
 ---
 
-## 🧠 O que você vai encontrar
+## 🧠 O que eu fiz
 
-✔️ Variáveis com `let` e `const`  
-✔️ Arrow functions  
-✔️ Template strings  
-✔️ Classes e herança  
-✔️ Destructuring  
-✔️ Módulos ES6  
-✔️ Promises / Async-Await  
-✔️ Outros conceitos modernos do JavaScript
+Criei uma lista de alunos com nome e nota e, a partir dela:
+
+- Separei os **alunos aprovados** (nota maior ou igual a 6)
+- Separei os **alunos reprovados** (nota menor que 6)
+- Usei o método `filter()` para fazer essa separação
+- Exibi os resultados no console de forma organizada
 
 ---
 
-## 📦 Tecnologias
+## 🧩 Conceitos utilizados
 
-Esse projeto usa:
-
-- JavaScript (ES6+)
-- Node.js (pra rodar localmente, se quiser testar arquivos)
-- Babel (para garantir compatibilidade e transpilar código moderno)
-   ```bash
-   git clone https://github.com/iancaTino/ES6-.git
+- `const`
+- Array de objetos
+- `filter()`
+- Arrow functions
+- `forEach()`
+- Template strings
